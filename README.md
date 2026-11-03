@@ -24,7 +24,7 @@
 |---|---|---|
 | [**OcuVal**](https://github.com/Anurag-YadavIIH/retinal-oct-fluid-segmentation) | Retinal OCT fluid segmentation on the RETOUCH dataset, validated across three scanner vendors, with medical-software style documentation. *(in progress)* | PyTorch, DICOM, Python |
 | [**RetinaPrep**](https://github.com/Anurag-YadavIIH/retinal-dataset-audit) | Curation and data-leakage audit pipeline for retinal fundus datasets. [View the reports](https://anurag-yadaviih.github.io/retinal-dataset-audit) | Python, pandas, GitHub Pages |
-| [**ConsultRAG**](https://github.com/Anurag-YadavIIH/ConsultRAG) | Security-first RAG assistant: redacts personal data before indexing, isolates each client's documents, and answers with citations. | FastAPI, pgvector, Ollama, Next.js, Docker |
+| [**ConsultRAG**](https://github.com/Anurag-YadavIIH/consulting-rag-assistant) | Security-first RAG assistant: redacts personal data before indexing, isolates each client's documents, and answers with citations. | FastAPI, pgvector, Ollama, Next.js, Docker |
 | [**AI Resume Tailor**](https://github.com/Anurag-YadavIIH/ai-resume-tailor) | Tailors a resume to a job description. [Live demo](https://ai-resume-tailor-rho.vercel.app) | Next.js, LLM APIs, Vercel |
 | [**Agentic Job Copilot**](https://github.com/Anurag-YadavIIH/agentic-job-copilot) | Multi-agent assistant for the job application workflow. | LangGraph, FastAPI, React, TypeScript |
 | [**Retina AI Detection**](https://github.com/Anurag-YadavIIH/retina-ai-detection) | Diabetic retinopathy detection from fundus images. | PyTorch, ResNet18, Flask |
