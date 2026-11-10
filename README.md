@@ -10,11 +10,12 @@
 
 ### 🧑‍💻 About me
 
-- 🎓 M.Tech in Ophthalmic Engineering, **IIT Hyderabad** (CGPA 9.18); B.E. in Civil Engineering
+- 💼 Data Management Intern, R&D team at **Forus Health** (from Nov 2026), curating retinal fundus data
+- 🎓 M.Tech in Ophthalmic Engineering, **IIT Hyderabad** (CGPA 9.18); B.E. in Civil Engineering, Bangalore Institute of Technology
 - 🩺 I build AI for eye care: retinal image analysis, OCT segmentation, and clean, leak-free medical datasets
 - 🤖 I also build LLM applications: RAG systems, multi-agent workflows, and tools for job seekers
 - 🔬 M.Tech thesis: finite element analysis of suture misalignment in penetrating keratoplasty (Abaqus, Python)
-- 📍 Open to AI/ML roles in **Bengaluru, Hyderabad** or remote
+- 📍 Based in **Hyderabad**; open to AI/ML roles anywhere in India or remote
 
 ---
 
