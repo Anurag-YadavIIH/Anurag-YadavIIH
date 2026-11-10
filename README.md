@@ -10,10 +10,10 @@
 
 ### 🧑‍💻 About me
 
-- 🎓 M.Tech in Ophthalmic Engineering, **IIT Hyderabad** (CGPA 9.18); B.Tech in Civil Engineering
+- 🎓 M.Tech in Ophthalmic Engineering, **IIT Hyderabad** (CGPA 9.18); B.E. in Civil Engineering
 - 🩺 I build AI for eye care: retinal image analysis, OCT segmentation, and clean, leak-free medical datasets
-- 🤖 I also build LLM applications: RAG systems, agents, and tools for job seekers
-- 🔬 My M.Tech thesis: finite element simulation of corneal biomechanics after penetrating keratoplasty (Abaqus)
+- 🤖 I also build LLM applications: RAG systems, multi-agent workflows, and tools for job seekers
+- 🔬 M.Tech thesis: finite element analysis of suture misalignment in penetrating keratoplasty (Abaqus, Python)
 - 📍 Open to AI/ML roles in **Bengaluru, Hyderabad** or remote
 
 ---
@@ -22,12 +22,13 @@
 
 | Project | What it is | Built with |
 |---|---|---|
-| [**OcuVal**](https://github.com/Anurag-YadavIIH/retinal-oct-fluid-segmentation) | Retinal OCT fluid segmentation on the RETOUCH dataset, validated across three scanner vendors, with medical-software style documentation. *(in progress)* | PyTorch, DICOM, Python |
-| [**RetinaPrep**](https://github.com/Anurag-YadavIIH/retinal-dataset-audit) | Curation and data-leakage audit pipeline for retinal fundus datasets. [View the reports](https://anurag-yadaviih.github.io/retinal-dataset-audit) | Python, pandas, GitHub Pages |
-| [**ConsultRAG**](https://github.com/Anurag-YadavIIH/consulting-rag-assistant) | Security-first RAG assistant: redacts personal data before indexing, isolates each client's documents, and answers with citations. | FastAPI, pgvector, Ollama, Next.js, Docker |
-| [**AI Resume Tailor**](https://github.com/Anurag-YadavIIH/ai-resume-tailor) | Tailors a resume to a job description. [Live demo](https://ai-resume-tailor-rho.vercel.app) | Next.js, LLM APIs, Vercel |
-| [**Agentic Job Copilot**](https://github.com/Anurag-YadavIIH/agentic-job-copilot) | Multi-agent assistant for the job application workflow. | LangGraph, FastAPI, React, TypeScript |
-| [**Retina AI Detection**](https://github.com/Anurag-YadavIIH/retina-ai-detection) | Diabetic retinopathy detection from fundus images. | PyTorch, ResNet18, Flask |
+| [**OcuVal**](https://github.com/Anurag-YadavIIH/retinal-oct-fluid-segmentation) | Retinal OCT fluid segmentation on 70 RETOUCH volumes, tested on scanner brands the model never saw, documented like medical device software (IEC 62304, ISO 14971). [Project report](https://anurag-yadaviih.github.io/retinal-oct-fluid-segmentation) | PyTorch, MONAI, DICOM |
+| [**RetinaPrep**](https://github.com/Anurag-YadavIIH/retinal-dataset-audit) | Curation and data-leakage audit pipeline for retinal fundus datasets (ODIR-5K, EyePACS). [View the reports](https://anurag-yadaviih.github.io/retinal-dataset-audit) | Python, pandas, PyTorch |
+| [**ConsultRAG**](https://github.com/Anurag-YadavIIH/consulting-rag-assistant) | Security-first RAG assistant: redacts personal data before indexing, isolates each client's documents, answers with citations. Deployed and tested on AWS with Terraform. | FastAPI, pgvector, Ollama, Next.js, AWS |
+| [**Medical Research Agent**](https://github.com/Anurag-YadavIIH/medical-research-agent) | Multi-agent assistant that searches PubMed, grades evidence and writes referenced summaries, with checks against made-up citations. | LangGraph, FastAPI, PostgreSQL, Redis |
+| [**AI Resume Tailor**](https://github.com/Anurag-YadavIIH/ai-resume-tailor) | Tailors a resume to a job description with match scoring and PDF export. [Live demo](https://ai-resume-tailor-rho.vercel.app) | Java, Spring Boot, React, PostgreSQL |
+| [**Agentic Job Copilot**](https://github.com/Anurag-YadavIIH/agentic-job-copilot) | Multi-agent assistant for the job application workflow, with a human approval step. | LangGraph, FastAPI, React, TypeScript |
+| [**Retina AI Detection**](https://github.com/Anurag-YadavIIH/retina-ai-detection) | Diabetic retinopathy grading from fundus images with Grad-CAM heatmaps. [Live demo](https://retina-ai-detection.onrender.com) | PyTorch, ResNet18, Flask |
 
 ---
 
@@ -44,6 +45,7 @@
 **Machine learning and computer vision**
 <br>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/MONAI-00A3E0?style=flat&logoColor=white" />
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" />
@@ -58,13 +60,17 @@
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white" />
 <img src="https://img.shields.io/badge/RAG-pgvector-336791?style=flat&logo=postgresql&logoColor=white" />
 
-**Backend, web and deployment**
+**Backend, cloud and deployment**
 <br>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 
